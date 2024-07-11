@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,9 +15,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/21it179/Nodejs-task/issues"
-  },
-  "homepage": "https://github.com/21it179/Nodejs-task#readme",
-  "dependencies": {
-    "express": "^4.19.2"
   }
 }
+ 

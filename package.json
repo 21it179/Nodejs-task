@@ -1,20 +1,14 @@
 {
-  "name": "nodejs-task",
+  "name": "github-actions-demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest index.js"
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/21it179/Nodejs-task.git"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/21it179/Nodejs-task/issues"
+  "devDependencies": {
+    "jest": "^27.4.3"
   }
 }
- 
